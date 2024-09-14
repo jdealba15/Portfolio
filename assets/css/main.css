@@ -29,6 +29,21 @@
 	margin-top: 3%;
 }
 
+#aboutImgSrc {
+	border-radius: 2%;
+}
+
+@media (max-width: 592px) {
+	#intrImg {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#intrImgB {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
 @media (max-width: 736px) {
 	#skillSection {
 		display: flex;
@@ -72,14 +87,14 @@
 		max-width: 100%;
 		max-height: 100%;
 	}
-	#aboutImg {
+	/* #aboutImg {
 		max-width: 75%;
 		max-height: 75%;
 	}
 	#aboutImgSrc {
 		max-width: 75%;
 		max-height: 75%;
-	}
+	} */
 }
 
 html, body, div, span, applet, object,
