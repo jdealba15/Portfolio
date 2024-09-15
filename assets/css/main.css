@@ -31,6 +31,8 @@
 
 #aboutImgSrc {
 	border-radius: 2%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 @media (max-width: 592px) {
@@ -87,14 +89,6 @@
 		max-width: 100%;
 		max-height: 100%;
 	}
-	/* #aboutImg {
-		max-width: 75%;
-		max-height: 75%;
-	}
-	#aboutImgSrc {
-		max-width: 75%;
-		max-height: 75%;
-	} */
 }
 
 html, body, div, span, applet, object,
