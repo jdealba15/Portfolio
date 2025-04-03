@@ -6,6 +6,22 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.skill-column {
+    flex: 1;
+    min-width: 250px; /* Ensures columns don't get too narrow */
+    max-width: 30%; /* Prevents columns from being too wide */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Optional styling */
+    border-radius: 8px; /* Rounded corners */
+}
+
 
 #button {
 	display: flex;
@@ -56,14 +72,20 @@
 	#skillSectionB {
 		margin: 0;
 		padding: 0;
-		max-width: 60%;
+		max-width: 75%;
 		padding-left: 3%;
 	}
-	#skillSectionC {
-
-		margin: 0;
-		padding: 0;
-		padding-left: 3%;
+	.skills-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+		width: 100%;
+		height: auto;
+	}
+	#skillsMainHeader {
+		display: flex;
+		justify-content: center;
 	}
 	#contact {
 		display: flex;
@@ -77,6 +99,51 @@
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
+	}
+}
+
+@media (min-width: 737px) {
+	#skillSection{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		align-items: center;
+	}
+	#skillSectionB{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#skillsContainer{
+		margin: 0;
+		padding: 0;
+		padding-top: 2%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: flex-start;
+		height: auto;
+		min-width: 100%;
+	}
+	#skillsMainHeader{
+		margin: 0;
+		margin-left: 1%;
+		padding: 0;
+		height: auto;
+		min-width: 13%;
+	}
+	.skills-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+		width: 100%;
+		height: auto;
 	}
 }
 
